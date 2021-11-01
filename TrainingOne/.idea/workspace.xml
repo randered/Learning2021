@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d47646-63f9-4d76-a6a3-dad5b6b9922b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PrintRandomNumber/RandomNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllCardsInDeck/AllCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TrainingOne/BuildingWithFloors/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrainingOne/BuildingWithFloors/Building.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildingWithFloors/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BuildingWithFloors/Building.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +45,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.RandomNumber">
-    <configuration name="BiggestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BiggestOfThemAll.BiggestNumber" />
+  <component name="RunManager" selected="Application.AllCards">
+    <configuration name="AllCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AllCardsInDeck.AllCards" />
       <module name="TrainingOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BiggestOfThemAll.*" />
+          <option name="PATTERN" value="AllCardsInDeck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllCards" />
         <item itemvalue="Application.RandomNumber" />
         <item itemvalue="Application.Building" />
         <item itemvalue="Application.SumOfTwoNumsEqualsToZero" />
         <item itemvalue="Application.BonusPoints" />
-        <item itemvalue="Application.BiggestNumber" />
       </list>
     </recent_temporary>
   </component>
