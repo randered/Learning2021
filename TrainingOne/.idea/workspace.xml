@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12d47646-63f9-4d76-a6a3-dad5b6b9922b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AllCardsInDeck/AllCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrainingOne/AllCardsInDeck/AllCards.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrainingOne/AllCardsInDeck/AllCards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AllCardsInDeck/AllCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AllCardsInDeck/AllCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrintRandomNumber/RandomNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RandomFibonachiAndMore/RandomAndMore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.AllCards">
+  <component name="RunManager" selected="Application.RandomAndMore">
     <configuration name="AllCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AllCardsInDeck.AllCards" />
       <module name="TrainingOne" />
@@ -85,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintRandomNumber.RandomNumber" />
+    <configuration name="RandomAndMore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomFibonachiAndMore.RandomAndMore" />
       <module name="TrainingOne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrintRandomNumber.*" />
+          <option name="PATTERN" value="RandomFibonachiAndMore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomAndMore" />
         <item itemvalue="Application.AllCards" />
-        <item itemvalue="Application.RandomNumber" />
         <item itemvalue="Application.Building" />
         <item itemvalue="Application.SumOfTwoNumsEqualsToZero" />
         <item itemvalue="Application.BonusPoints" />

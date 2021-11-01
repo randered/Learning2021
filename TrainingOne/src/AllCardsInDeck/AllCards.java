@@ -2,6 +2,10 @@ package AllCardsInDeck;
 
 public class AllCards {
     public static void main(String[] args) {
+        /*
+        4.    Напишете програма, която отпечатва всички възможни
+        карти от стандартно тесте без джокери (имаме 52 карти: 4 бои по 13 карти).
+         */
 
         for (int cardColor = 0; cardColor < 4; cardColor++) {
             for (int cardValue = 0; cardValue < 13; cardValue++) {
