@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4fa2da6-f367-48f8-9843-c0c749d6783b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MostOccurrencesOfANumber/MostOccurrences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SelectionSortAlg/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WordToIndexFromAlphabet/WordToIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArraysExercises/Max3x3Matrix/Max3x3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArraysExercises/Max3x3Matrix/Max3x3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +38,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MostOccurrences">
-    <configuration name="CompareCharArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CompareCharArrays.CompareCharArrays" />
+  <component name="RunManager" selected="Application.WordToIndex">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ArraysExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CompareCharArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,19 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SameNumbersRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SameNumbersInARow.SameNumbersRow" />
-      <module name="ArraysExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SameNumbersInARow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SelectionSortAlg.SelectionSort" />
       <module name="ArraysExercises" />
@@ -105,13 +85,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordToIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordToIndexFromAlphabet.WordToIndex" />
+      <module name="ArraysExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WordToIndexFromAlphabet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordToIndex" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MostOccurrences" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.Max3x3" />
-        <item itemvalue="Application.SameNumbersRow" />
-        <item itemvalue="Application.CompareCharArrays" />
       </list>
     </recent_temporary>
   </component>
