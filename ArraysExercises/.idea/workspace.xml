@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4fa2da6-f367-48f8-9843-c0c749d6783b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArraysExercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompareCharArrays/CompareCharArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreateAndInitialize/CreateAndInitializeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EqualArraysCheck/EqualArraysCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Max3x3Matrix/Max3x3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SameNumbersInARow/SameNumbersRow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TrainingOne/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TrainingOne/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MostOccurrencesOfANumber/MostOccurrences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SelectionSortAlg/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArraysExercises/Max3x3Matrix/Max3x3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArraysExercises/Max3x3Matrix/Max3x3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,39 +39,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Max3x3">
+  <component name="RunManager" selected="Application.MostOccurrences">
     <configuration name="CompareCharArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompareCharArrays.CompareCharArrays" />
       <module name="ArraysExercises" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CompareCharArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateAndInitializeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreateAndInitialize.CreateAndInitializeArray" />
-      <module name="ArraysExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CreateAndInitialize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EqualArraysCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EqualArraysCheck.EqualArraysCheck" />
-      <module name="ArraysExercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EqualArraysCheck.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +66,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MostOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MostOccurrencesOfANumber.MostOccurrences" />
+      <module name="ArraysExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MostOccurrencesOfANumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SameNumbersRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SameNumbersInARow.SameNumbersRow" />
       <module name="ArraysExercises" />
@@ -115,13 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SelectionSortAlg.SelectionSort" />
+      <module name="ArraysExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelectionSortAlg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostOccurrences" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.Max3x3" />
         <item itemvalue="Application.SameNumbersRow" />
         <item itemvalue="Application.CompareCharArrays" />
-        <item itemvalue="Application.EqualArraysCheck" />
-        <item itemvalue="Application.CreateAndInitializeArray" />
       </list>
     </recent_temporary>
   </component>
@@ -146,5 +136,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
