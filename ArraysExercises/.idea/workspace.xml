@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4fa2da6-f367-48f8-9843-c0c749d6783b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MergeSortImpl/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ArraysExercises/WordToIndexFromAlphabet/WordToIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ArraysExercises/WordToIndexFromAlphabet/WordToIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordToIndexFromAlphabet/WordToIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordToIndexFromAlphabet/WordToIndex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
