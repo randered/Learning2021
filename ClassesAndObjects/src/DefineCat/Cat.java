@@ -17,6 +17,11 @@ public class Cat {
         System.out.println("Мъррр :3");
     }
 
+    public void printCat(){
+        System.out.printf("The cat name is %s and is %s color.\n\r", this.getName(), this.getColor());
+
+    }
+
     public String getName() {
         return name;
     }
