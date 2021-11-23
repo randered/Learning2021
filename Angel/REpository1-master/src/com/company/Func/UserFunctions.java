@@ -14,7 +14,7 @@ public class UserFunctions {
 
     public UserFunctions() {
         file = new FileFunc();
-        usersFromFile = file.readFile(filePath);
+        usersFromFile = file.readUserFile(filePath);
         if (usersFromFile == null) {
             createAdmin();
         } else {
@@ -25,24 +25,38 @@ public class UserFunctions {
 
 
     public boolean removeUser(String username) {
-        return userList.removeIf(user -> user.getUserName().equals(username));
+        if(username.equals("admin")){
+            System.out.println("Admin Cannot be deleted!");
+            return false;
+        }
+        if (userList.removeIf(user -> user.getUserName().equals(username))) {
+            writeToFile();
+            System.out.printf("User %s removed successfully!\n\r", username);
+            return true;
+        }
+        System.out.println("User doesn't exist!");
+        return false;
     }
 
     public boolean addUser(String username, String password) {
-        if (userList.size() == 11) {
-            System.out.println("Maximum number of Users reached ! ");
-            return false;
-        }
-        for (User user : userList) {
+        for (User user : usersFromFile) {
             if (user.getUserName().equals(username)) {
                 System.out.println("User already exist! ");
                 return false;
             }
         }
-        userList.add(new User(username, password));
-        return true;
+        if (userList.size() == 11) {
+            System.out.println("Maximum number of Users reached ! ");
+            return false;
+        } else {
+            userList.add(new User(username, password));
+            writeToFile();
+            return true;
+        }
+
     }
-    public void listAllMembers(){
+
+    public void listAllMembers() {
         System.out.println(userList.toString());
     }
 

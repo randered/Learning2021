@@ -1,16 +1,21 @@
 package com.company;
 
-import com.company.FileMng.FileFunc;
-import com.company.Func.Login;
+import com.company.Func.ClientList;
 import com.company.Func.UserFunctions;
+import com.company.Users.Client;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 
 public class Main {
     private static UserFunctions userFunctions = new UserFunctions();
+    private static ClientList clientList = new ClientList();
     private static boolean isSuccess = true;
 
-    public static void main(String[] args) {
 
-        userFunctions.listAllMembers();
+    public static void main(String[] args) throws ParseException {
+        clientList.addClient("Test1", "Test1", new SimpleDateFormat("dd/MM/yyyy").parse("22/13/2021"));
+
         //Цялата информация да се пази, записва и зарежда в и от текстови файлове.
 //        Система за следене на времето в компания
 //        Често големите компании използват т.нар. ERP системи (Enterprise Resource Planning) за да следят клиенто-потока,

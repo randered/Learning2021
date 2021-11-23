@@ -1,5 +1,6 @@
 package com.company.FileMng;
 
+import com.company.Users.Client;
 import com.company.Users.User;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -34,11 +35,23 @@ public class FileFunc {
 //        new Gson().fromJson(json, (Type) data.getClass());
     }
 
-    public List<User> readFile(String filePath) {
-
+    public List<User> readUserFile(String filePath) {
         try {
             Reader reader = Files.newBufferedReader(Paths.get(filePath));
             List<User> users = new Gson().fromJson(reader, new TypeToken<ArrayList<User>>() {
+            }.getType());
+            reader.close();
+            return users;
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        return null;
+    }
+    public List<Client> readClientFile(String filePath) {
+        try {
+            Reader reader = Files.newBufferedReader(Paths.get(filePath));
+            List<Client> users = new Gson().fromJson(reader, new TypeToken<ArrayList<Client>>() {
             }.getType());
             reader.close();
             return users;

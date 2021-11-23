@@ -1,24 +1,36 @@
 package com.company.Users;
 
-import java.time.LocalDate;
 import java.util.Date;
 
 public class Client {
-    private String name;
-    private String projectName;
-    private Date expiringDate;
+    final private String name;
+    final private String projectName;
+    final private Date expiringDate;
+
+    public Client(String name, String projectName, Date expiringDate) {
+        this.name = name;
+        this.projectName = projectName;
+        this.expiringDate = expiringDate;
+    }
+
+    public String getName() {
+        return name;
+    }
 
     public String getProjectName() {
         return projectName;
-    }
-
-    public void setProjectName(String projectName) {
-        this.projectName = projectName;
     }
 
     public Date getExpiringDate() {
         return expiringDate;
     }
 
-    public void setExpiringDate(Date expiringDate) {this.expiringDate = expiringDate;}
+    @Override
+    public String toString() {
+        return "Client{" +
+                "name='" + name + '\'' +
+                ", projectName='" + projectName + '\'' +
+                ", expiringDate=" + expiringDate +
+                '}' + "\n\r";
+    }
 }
