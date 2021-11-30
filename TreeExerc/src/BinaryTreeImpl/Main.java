@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         Gson gson = new GsonBuilder().create();
-        FileWriter fileWriter = new FileWriter("Student.json");
+        FileWriter fileWriter = new FileWriter("CollectionSaved.json");
         BinaryTreeImpl.insert(mainRoot,15);
         BinaryTreeImpl.insert(mainRoot,10);
         BinaryTreeImpl.insert(mainRoot,20);
