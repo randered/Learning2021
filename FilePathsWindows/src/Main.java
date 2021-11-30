@@ -4,6 +4,7 @@ public class Main {
          /* Iterative function to traverse given
     directory in Java using BFS*/
         String inputDir = "C:\\";
-        FilePathPrint.printDirsFiles(inputDir);
+//        FilePathPrint.printDirsFiles(inputDir);
+        System.out.println(FilePathPrint.isBalanced("{} ()"));
     }
 }
