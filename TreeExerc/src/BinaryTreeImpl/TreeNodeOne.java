@@ -1,17 +1,17 @@
 package BinaryTreeImpl;
 
-public class BSTNode {
+public class TreeNodeOne {
     private int data;
-    private BSTNode left;
-     private BSTNode right;
+    private TreeNodeOne left;
+     private TreeNodeOne right;
 
-    public BSTNode() {
+    public TreeNodeOne() {
         this.data = 0;
         this.left = null;
         this.right = null;
     }
 
-    public BSTNode(int data) {
+    public TreeNodeOne(int data) {
         this.data = data;
     }
 
@@ -23,19 +23,19 @@ public class BSTNode {
         this.data = data;
     }
 
-    public BSTNode getLeft() {
+    public TreeNodeOne getLeft() {
         return left;
     }
 
-    public void setLeft(BSTNode left) {
+    public void setLeft(TreeNodeOne left) {
         this.left = left;
     }
 
-    public BSTNode getRight() {
+    public TreeNodeOne getRight() {
         return right;
     }
 
-    public void setRight(BSTNode right) {
+    public void setRight(TreeNodeOne right) {
         this.right = right;
     }
 }

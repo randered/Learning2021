@@ -7,7 +7,7 @@ import java.io.IOException;
 
 
 public class Main {
-    static BSTNode mainRoot;
+    static TreeNodeOne mainRoot;
 
     public static void main(String[] args) throws IOException {
         Gson gson = new GsonBuilder().create();
@@ -21,6 +21,5 @@ public class Main {
         gson.toJson(mainRoot, fileWriter);
         BinaryTreeImpl.checkIfExist(mainRoot,12);
         fileWriter.close();
-
     }
 }
